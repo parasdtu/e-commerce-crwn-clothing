@@ -30,12 +30,12 @@ class SignUp extends React.Component {
     }
 
     try {
-      const { user } = await auth.createUserWithEmailAndPassword(
+      const  {user}  = await auth.createUserWithEmailAndPassword(
         email,
         password
       );
 
-      await createUserProfileDocument(user, { displayName });
+      await createUserProfileDocument(user,  {displayName} );//why destructured user at line 33 and why passed diplayName in this function separately
 
       this.setState({
         displayName: '',

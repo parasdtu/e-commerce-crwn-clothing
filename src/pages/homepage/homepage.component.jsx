@@ -3,11 +3,22 @@ import './homepage.styles.scss';
 import Directory from  '../../components/directory/directory.component';
 
 
-const HomePage=() => (
+class HomePage extends React.Component{ 
+    constructor(){
+        super();
+    }
+    
+    render(){
+        console.log(this.props);
+        return(
+        <div className='homepage'>
+            <Directory />
+        </div>
+        );
+    }
+    
+}
+    
 
-    <div className='homepage'>
-        <Directory />
-    </div>
-);
 
 export default HomePage;

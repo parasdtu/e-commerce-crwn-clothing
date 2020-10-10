@@ -20,7 +20,7 @@ class ShopPage extends React.Component {
   }
 
   render() {
-    const {match,isCollectionFetching, isCollectionLoading} = this.props;
+    const {match, isCollectionLoading} = this.props;
     // const {loading}= this.state;
     return (
       <div className='shop-page'>
