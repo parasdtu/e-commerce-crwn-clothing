@@ -2,7 +2,7 @@
   "name": "crwn-clothing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://parasdtu.github.io/e-commerce-crwn-clothing/",
+  "homepage": "https://alien-clothing.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
